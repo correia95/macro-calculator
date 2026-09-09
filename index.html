@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0d9488" />
+
+    <title>Macro Calculator — protein, carbs &amp; fat targets per day</title>
+    <meta
+      name="description"
+      content="Split your daily calories into protein, carbohydrate and fat. Work out your calories from age, weight, height, activity and goal, or enter your own target, then choose a preset ratio, a custom split or a protein-per-kilogram target. Per-meal numbers included. Estimate only."
+    />
+    <link rel="canonical" href="https://macro-calculator.correia95.workers.dev/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Macro Calculator" />
+    <meta property="og:description" content="Daily protein, carb and fat targets from your calories and a chosen ratio — preset, custom or protein per kg — with per-meal breakdown." />
+    <meta property="og:url" content="https://macro-calculator.correia95.workers.dev/" />
+    <meta property="og:image" content="https://macro-calculator.correia95.workers.dev/og.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Macro Calculator" />
+    <meta name="twitter:description" content="Protein, carbs and fat targets per day, with per-meal numbers. Estimate only. Free, no sign-up." />
+    <meta name="twitter:image" content="https://macro-calculator.correia95.workers.dev/og.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Macro Calculator",
+        "url": "https://macro-calculator.correia95.workers.dev/",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Any",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Estimates daily protein, carbohydrate and fat targets by splitting a calorie goal (entered directly or computed from the Mifflin-St Jeor equation, activity level and a weight goal) using a preset, custom or protein-per-kilogram macronutrient ratio, with per-meal figures. An estimate, not medical or dietary advice."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I calculate my macros?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Start from a daily calorie target. Multiply it by the percentage you want from each macronutrient, then divide by its energy density: 4 calories per gram for protein and carbohydrate, 9 for fat."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is a good macro split?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A balanced 30 percent protein, 40 percent carbohydrate, 30 percent fat works for most people. Higher protein or a per-kilogram protein target helps keep muscle in a calorie deficit; lower-carb and keto shift energy toward fat."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much protein per kilogram of body weight?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Common recommendations are 1.6 to 2.2 grams per kilogram per day for people who train, with the higher end during a calorie deficit."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is this medical advice?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. It is an estimate using standard formulas. Individual needs vary. Speak to a doctor or registered dietitian before making significant dietary changes, particularly with a health condition, during pregnancy, or for a child."
+            }
+          }
+        ]
+      }
+    </script>
+    <style>
+      .tt-nav { box-sizing: border-box; width: 100%; margin: 0; background: #f1f1f4; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+      .tt-nav a { display: inline-flex; align-items: center; gap: 6px; padding: 7px 14px; text-decoration: none; color: #3730a3; font: 600 13px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+      .tt-nav a:hover { color: #1e1b4b; text-decoration: underline; }
+      .tt-nav svg { width: 14px; height: 14px; flex: none; }
+      @media (prefers-color-scheme: dark) {
+        .tt-nav { background: #15151b; border-bottom-color: rgba(255, 255, 255, 0.12); }
+        .tt-nav a { color: #c7d2fe; }
+        .tt-nav a:hover { color: #e0e7ff; }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="tt-nav"><a href="https://tinytools.correia95.workers.dev/" aria-label="TinyTools home — all tools and games"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2 2 11h3v9h5v-6h4v6h5v-9h3z"/></svg><span>TinyTools</span></a></nav>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <noscript>
+      <p style="text-align: center; padding: 20px">
+        The Macro Calculator needs JavaScript. It splits a daily calorie target into protein, carb
+        and fat grams.
+      </p>
+    </noscript>
+  </body>
+</html>

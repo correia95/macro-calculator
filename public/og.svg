@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0b0e10"/>
+  <g transform="translate(890,315)">
+    <circle r="150" fill="none" stroke="#a5b4fc" stroke-width="46" stroke-dasharray="283 660" transform="rotate(-90)"/>
+    <circle r="150" fill="none" stroke="#fcd34d" stroke-width="46" stroke-dasharray="377 660" stroke-dashoffset="-283" transform="rotate(-90)"/>
+    <circle r="150" fill="none" stroke="#f9a8d4" stroke-width="46" stroke-dasharray="283 660" stroke-dashoffset="-660" transform="rotate(-90)"/>
+  </g>
+  <text x="80" y="210" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="104" font-weight="800" fill="#e6edf1" letter-spacing="-2">Macro Calculator</text>
+  <text x="82" y="282" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="30" fill="#93a0a9">protein · carbs · fat — daily targets from your calories</text>
+  <g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="30" font-weight="700">
+    <text x="82" y="370" fill="#a5b4fc">P 165 g</text>
+    <text x="330" y="370" fill="#fcd34d">C 220 g</text>
+    <text x="580" y="370" fill="#f9a8d4">F 73 g</text>
+  </g>
+  <text x="80" y="440" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="24" fill="#93a0a9">preset / custom / protein-per-kg · per-meal breakdown · estimate only</text>
+  <text x="80" y="482" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="21" fill="#2dd4bf">free · no sign-up · works offline</text>
+</svg>
