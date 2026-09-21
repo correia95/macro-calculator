@@ -119,3 +119,8 @@ header h1 { font-size: clamp(1.45rem, 4.6vw, 2rem); margin: 0 0 6px; letter-spac
   .grid3 { grid-template-columns: 1fr 1fr; }
   .segrow { flex-direction: column; gap: 8px; }
 }
+
+/* a11y-contrast-fixes (auto, WCAG AA 4.5:1) */
+@media (prefers-color-scheme: light) {
+  .seg button.on { color: #0b8278; }
+}
